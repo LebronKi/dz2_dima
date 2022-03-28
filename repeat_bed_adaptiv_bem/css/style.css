@@ -1,0 +1,1240 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hind+Madurai:wght@400;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hind+Madurai:wght@400;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hind+Madurai:wght@400;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hind+Madurai:wght@400;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hind+Madurai:wght@400;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;500&family=Roboto:wght@400;500;700&display=swap');
+
+@font-face {
+  font-family: 'LatoBold';
+  src: url('../fonts/LatoBold.eot');
+  src: local('☺'), url('fonts/LatoBold.woff') format('woff'), url('fonts/LatoBold.ttf') format('truetype'), url('fonts/LatoBold.svg') format('svg');
+  font-weight:bold;
+  font-style: normal;
+}
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+
+
+.container{
+max-width: 1200px;
+margin: 0 auto;
+}
+
+/*--------------------------------------main----------------------------------*/
+
+.main{
+background: url('../img/titleimg.jpg');
+background-size: cover;
+min-height: 690px;
+position: relative;
+}
+.main__header{
+display: flex;
+align-items: center;
+margin: 0 0 90px 0;
+justify-content: space-between;
+}
+.main__image:hover{
+transform: translate(20px, 10px);
+transition: all 0.8s ease 0.2s;
+}
+.main__list{
+display: flex;
+}
+.main__list li{
+margin: 0 20px;
+color:#000;
+}
+.main__list a{
+  color: #000;
+}
+
+.main__list li:first-child{
+  
+  margin:0 20px 0 0 0;
+}
+.main__list li:last-child{
+  margin: 0 0 0 20px;
+}
+.main__list li:nth-child(2),
+.main__list li:nth-child(3),
+.main__list li:nth-child(4){
+  opacity: 0.7;
+}
+.main__button{
+padding: 15px 30px;
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
+background: #1B75BB;
+border-radius: 5px;
+}
+.main__button:active{
+position: relative;
+top: 3px;
+background: rebeccapurple;
+}
+.main__text{
+  max-width: 456px;
+  
+}
+.main__one{
+font-family:Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+text-transform: uppercase;
+color: #1B75BB;
+opacity: 0.8;
+}
+.main__second{
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 600;
+font-size: 57px;
+line-height: 120%;
+color: #081F32;
+margin: 0 0 25px 0;
+max-width: 456px;
+}
+.main__second b{
+color: #1B75BB;
+}
+.main__third{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+color: #081F32;
+opacity: 0.6;
+margin: 0 0 30px 0;
+max-width: 347px;
+}
+.main__button{
+color: #fff;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+padding: 15px 30px;
+background: #1B75BB;
+border-radius: 5px; 
+}
+.main__button:active{
+position: relative;
+top: 3px;
+background: rebeccapurple;
+}
+.main__data{
+position: absolute;
+top: 650px;
+background: url('../img/data.png');
+display: flex;
+padding: 15px 0px;
+border-radius: 10px;
+}
+.main__title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+margin: 0 0 10px 0;
+}
+.main__number{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: #081F32;
+opacity: 0.8;
+}
+.main__block{
+margin: 0 30px;
+}
+.main__line{
+min-width: 2px;
+min-height: 34px;
+background: grey;
+border-radius: 1px;
+}
+.main__btn{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #fff;
+padding: 15px 30px;
+background: #1B75BB;
+border-radius: 5px;
+margin: 0px 20px 0 0px;
+}
+.main__btn:active{
+  position: relative;
+  top: 3px;
+  background: rebeccapurple;
+}
+
+/*------------------------------------dream-holidays------------------------------*/
+
+.dream-holidays{
+display: flex;
+margin: 197px 0 172px 0;
+}
+.dream-holidays__image{
+max-width: 60%; 
+position: relative;
+}
+.dream-holidays__square{
+position: absolute;
+top: 175px;
+left: -47px;
+}
+.dream-holidays__opacity{
+position: absolute;
+left: 216px;
+top: -47px;
+}
+.dream-holidays__ring{
+border-radius: 10px;
+position: relative;
+z-index: 1;
+}
+.dream-holidays__text{
+max-width: 430px;
+margin: 70px 0 0 105px;
+}
+.dream-holidays__title{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+text-transform: uppercase;
+color: #1B75BB;
+opacity: 0.8;
+margin: 0 0 15px 0;
+}
+.dream-holidays__discription{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+text-transform: uppercase;
+opacity: 0.8;
+}
+.dream-holidays__button{
+margin: 31px 0 0 0;
+background: #1B75BB;
+border-radius: 5px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #fff;
+padding: 15px 30px;
+}
+.dream-holidays__button:active{
+  position: relative;
+  top: 3px;
+  background: rebeccapurple;
+}
+
+/*--------------------------------------choose---------------------------------*/
+
+.choose{
+margin: 0px 0 140px 0;
+text-align: center;
+}
+
+.choose__title{
+margin: 0px 0 25px 0;
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 550;
+font-size: 32px;
+line-height: 140%;
+color: #081F32;
+text-align: center;
+
+}
+.choose__naturally{
+margin: 0 0 60px 200px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+text-align: center;
+color: #081F32;
+opacity: 0.6;
+max-width: 819px;
+text-align: center;
+}
+.choose__row{
+display: flex;
+flex: 1 0 25%;
+gap:  0 30px;
+}
+.choose-item{
+text-align: center;
+flex: 1 0 calc((100% - 90px) / 4);
+max-width: calc((100% - 90px) / 4);
+border: 1px solid grey;
+box-shadow: 0px 4px 30px rgba(199, 199, 199, 0.25);
+border-radius: 10px;
+
+}
+.choose-item__image img{
+ margin: 21px 0 40px 0;
+}
+.choose-item__text{
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 550;
+font-size: 24px;
+line-height: 150%;
+text-align: center;
+color: #081F32;
+margin: 0 0 15px 0;
+}
+.choose-item__disciption{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+text-align: center;
+color: #081F32;
+opacity: 0.6;
+margin: 0 10px;
+}
+
+/*------------------------------------about----------------------------------*/
+
+.about{
+display: flex;
+flex-wrap: wrap;
+}
+.about__item{
+flex: 1 0 47.5%;
+position: relative;
+margin: 0 30px 30px 0;
+
+}
+
+.about__title{
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 550;
+font-size: 32px;
+line-height: 140%;
+color: #081F32;
+margin: 50px 0 25px 0;
+}
+.about__text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+color: #081F32;
+opacity: 0.6;
+max-width: 75%;
+margin: 0 0 30px 0;
+}
+.about__button{
+padding: 15px 30px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+color: #FFFFFF;
+background: #1B75BB;
+border-radius: 5px;
+}
+.about__button:active{
+  position: relative;
+  top: 3px;
+  background: rebeccapurple;
+}
+.about__price{
+position: absolute;
+top: 216px;
+max-width: 37%;
+background: rgba(226, 226, 226, 0.7);
+z-index: 1;
+border-radius: 10px;
+display: flex;
+flex-wrap: wrap;
+padding: 20px;
+align-items: center;
+}
+.about__room{
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 550;
+font-size: 16px;
+line-height: 160%;
+color: #081F32;
+margin: 0 10px 15px 0;
+}
+.about__night{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 160%;
+color: #081F32;
+opacity: 0.8;
+margin: 0 0 12px 0;
+}
+.about__btn{
+background: #1B75BB;
+border-radius: 5px;
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 150%;
+color: #FFFFFF;
+padding: 10px 20px;
+}
+.about__btn:active{
+  position: relative;
+  top: 3px;
+  background: rebeccapurple;
+}
+
+ /*-------------------------------------what---------------------------------------*/
+
+.what{
+display: flex;
+justify-content: space-between;
+margin: 110px 0px 68px 0;
+}
+.what__say{
+font-family: 'Gelasio';
+font-weight: 500;
+font-size: 32px;
+line-height: 140%;
+color: #081F32;
+}
+.what__button{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+background: #1B75BB;
+border-radius: 5px;
+color: #FFFFFF;
+padding: 15px 30px;
+}
+.what__button:active{
+  position: relative;
+  top: 3px;
+  background: rebeccapurple;
+}
+
+/*------------------------------------portfolio------------------------------------*/
+
+.portfolio{
+display: flex;
+margin: 0 0 140px 0;
+}
+.portfolio__gallery{
+text-align: center;
+position: relative;
+flex: 1 0 calc((100% - 60px) / 3);
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+.portfolio__gallery:hover{
+background: rgba(13, 130, 226, 0.15);
+}
+.portfolio__gallery:nth-child(2n){
+margin: 0 30px;
+}
+.portfolio__image{
+  margin: 28px 0 25px 0;
+}
+.portfolio__marks{
+position: absolute;
+left: 39px;
+top: 128px;
+}
+.portfolio__text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+text-align: center;
+color: #081F32;
+opacity: 0.8;
+margin: 0 40px 30px 40px;
+}
+.portfolio__text b{
+color: black;
+}
+.portfolio__name{
+font-family: 'Gelasio';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+text-align: center;
+color: #081F32;
+opacity: 0.9;
+margin: 0 0 5px 0;
+}
+.portfolio__name b{
+color: #000;
+}
+.portfolio__mail{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+text-align: center;
+color: #081F32;
+opacity: 0.7;
+}
+
+/*---------------------------------------stay-------------------------------------*/
+
+.stay__title{
+text-align: center; 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #081F32;
+opacity: 0.8;
+}
+.stay__text{
+margin:20px 0 50px 0 ;
+font-family: 'Gelasio';
+font-weight: 500;
+font-size: 32px;
+line-height: 140%;
+text-align: center;
+color: #081F32;
+}
+.stay__form{
+text-align: center;
+border-radius: 5px;
+margin: 0 0 124px 0;
+}
+.stay__input{
+border: 1px solid rgba(0, 0, 0, 0.1);
+padding: 20px 75px;
+border-radius: 5px;
+font-family: Poppins;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #081F32;
+
+}
+.stay__button{
+padding: 20px 45px;
+background: #1B75BB;
+border-radius: 5px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+letter-spacing: 2px;
+color: #FFFFFF;
+margin: 0 0 0 -10px;
+}
+.stay__button:active{
+ position: relative;
+ top: 3px;
+ background: rebeccapurple;
+}
+
+/*-----------------------------------------footer------------------------------------------*/
+
+.footer{
+  background:  #FCFCFD;
+}
+.footer__container{
+display: flex;
+justify-content: space-between;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 0 145px 0;
+}
+.footer__text{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: #081F32;
+opacity: 0.7;
+margin: 0 0 30px 0;
+}
+.footer__mail{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0.06em;
+color: #081F32;
+opacity: 0.7;
+margin: 0 0 15px 0;
+}
+.footer__list{
+display: flex;
+}
+.footer__list li:nth-child(1),
+.footer__list li:nth-child(2),
+.footer__list li:nth-child(3){
+  margin: 0 25px 0 0;
+}
+.footer__row{
+  margin: 70px 0 0 0;
+}
+.footer__column li:nth-child(1){
+font-family: 'Poppins';
+font-weight: 550;
+font-size: 20px;
+line-height: 150%;
+color: black;
+margin: 0 0 30px 0;
+}
+.footer__column li:nth-child(2),
+.footer__column li:nth-child(3),
+.footer__column li:nth-child(4){
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: #081F32;
+opacity: 0.7;
+margin: 0 0 20px 0;
+}
+.footer__column li:hover{
+  color: blue;
+}
+.footer__subscribe{
+  margin: 70px 0 0 0;
+}
+.footer__title{
+font-family: Poppins;
+font-weight: 550;
+font-size: 20px;
+line-height: 150%;
+color: #081F32;
+margin: 0 0 30px 0;
+}
+.footer__input{
+border: 1px solid rgba(0, 0, 0, 0.1);
+padding: 15px 52px;
+border-radius: 5px;
+font-family: Poppins;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #081F32;
+}
+.footer__button{
+padding:15px 35px;
+background: #1B75BB;
+border-radius: 5px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+letter-spacing: 2px;
+color: #FFFFFF;
+margin: 0 0 0 -4px;
+}
+.footer__button:active{
+position: relative;
+top: 3px;
+background: rebeccapurple;
+}
+
+/*------------------------первый медиа-запрос------------------------*/
+@media (min-width: 320px) and (max-width:375px){
+   
+  .main__header{
+     display: block;
+    text-align: center;
+    margin: 0;
+    }
+    .main__list{
+      display: block;
+      font-size: 25px;
+      margin: -0px 0 20px 0;
+    }
+    .main__list li{
+      margin:  0 0 10px 0;
+    }
+    .main__text{
+       margin: 20px 0 0 0;
+        text-align: center;
+    }
+    .main__second{
+    font-size: 27px;
+    }
+    .main__third{
+      font-size: 20px;
+    }
+    .main__data{
+      margin: 30px 0 0 0;
+    }
+    .main__block{
+     margin: 0;
+    }
+    .main__title,
+    .main__number{
+      font-size: 20px;
+      text-align: center;
+      padding :0;
+      color : black;
+    }
+    .main__btn{
+     padding: 5px 15px; 
+     padding: 0%;  
+     font-size: 22px; 
+     margin: 0 0 0 10px;
+    }
+    .dream-holidays{
+    position: relative;
+    top: -50px;
+    }
+    .dream-holidays__text{
+       position: absolute;
+       text-align: center;
+       top: 100px;
+       left: -100px;
+    
+    }
+    .dream-holidays__opacity,
+    .dream-holidays__square{
+    display: none;
+    }
+    .dream-holidays__ring{
+      max-width: 320px;
+    }
+    .choose__naturally{
+    display: inline ;
+    }
+    .choose__row{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    }
+    .choose-item{
+      min-width: 80%;
+      margin: 0 0 15px 0;
+    }
+    .about{
+      margin: -150px 0 0 0;
+     display: flex;
+     text-align: center;
+    
+    }
+    .about__text{
+     padding:  0 0 0 80px;
+    }
+    .about__image{
+       max-width: 320px;
+    }
+    .about__price{
+     
+        position: absolute;
+        height: 195px;
+        left: 0px;
+        bottom: 0;
+        margin: -217px 0 0 0;
+      }
+    .what__say{
+      max-width: 60%;
+      text-align: center;
+    }
+    .portfolio{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     
+    }
+    .portfolio__gallery{
+     max-width: 80%;
+     background : rgb(248, 248, 248);
+    }
+    .portfolio__gallery:nth-child(2n + 1){
+      margin: 15px 0;
+    }
+    .stay{
+      margin: -100px 0 0 0;
+    }
+   .stay__input{
+     max-width: 85%;
+    }
+    .footer__container{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .footer__list{
+    display: flex;
+    justify-content: center;
+    }
+/*-------------------------------------------------------------------------------------------*/
+}
+/*-------------------------второй медиа-запрос ----------------------*/
+@media (min-width: 376px) and (max-width:425px){
+   .main__header{
+     display: block;
+     font-size: 25px;
+     text-align: center;
+     margin: 0;
+   }
+   .main__list {
+     display: block;
+     margin: 0 0 15px 0;
+   }
+   .main__list li{
+     margin: 0 0 10px 0;
+   }
+   .main__text{
+     margin: 10px 0 0 5px;
+    }
+   .main__second{
+    margin: 0;
+     font-size: 35px;
+   }
+   .main__third{
+     font-size: 19px;
+     margin: 0 0 8px 0;
+   }
+  .main__data{
+   padding: 0;
+  }
+  .main__block{
+      margin: 0;
+  }
+  .main__title,
+  .main__number{
+     font-size: 20px;
+     text-align: center;
+     padding :0;
+  }
+  .main__btn{
+    padding: 5px 15px; 
+    padding: 0%;  
+    font-size: 22px; 
+    margin: 0 0 0 10px;
+   }
+   .dream-holidays{
+     position: relative;
+     top: -100px;
+    }
+   .dream-holidays__text{
+       position: absolute;
+       text-align: center;
+       top: 100px;
+       left: -100px;
+    }
+    .dream-holidays__opacity,
+    .dream-holidays__square{
+    display: none;
+    }
+    .dream-holidays__ring{
+      max-width: 376px;
+    }
+    .choose__naturally{
+      display: inline ;
+    }
+    .choose__row{
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      
+    }
+    .choose-item{
+      min-width: 80%;
+      margin: 0 0 15px 0;
+    }
+    .about{
+      margin: -150px 0 0 0;
+     display: flex;
+     text-align: center;
+     position: relative;
+     }
+    .about__text{
+     padding:  0 0 0 80px;
+    }
+    .about__image{
+       max-width: 376px;
+    }
+    .about__price{
+      position: absolute;
+      height: 230px;
+      left: 0px;
+      margin: -217px 0 0 0;
+    }
+    .what__say{
+      max-width: 60%;
+      text-align: center;
+    }
+    .portfolio{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    .portfolio__gallery{
+      max-width: 80%;
+      background : rgb(248, 248, 248);
+    }
+    .portfolio__gallery:nth-child(2n + 1){
+       margin: 15px 0;
+    }
+    .stay{
+      margin: -100px 0 0 0;
+    }
+    .stay__input{
+     max-width: 85%;
+    }
+    .footer__container{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     
+    }
+    .footer__list{
+     
+      display: flex;
+      justify-content: center;
+    }
+}
+/*-------------------------третий медиа-запрос ----------------------*/
+@media (min-width: 426px) and (max-width: 489px){
+  .main__header{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   margin: 0 0 40px 0;
+  }
+  .main__list{
+    font-size: 16px;
+    margin: 0 0 30px 0;
+  }
+  .main__third{
+  margin: 0 0 8px 0;
+  }
+  .main__data{
+    padding: 0;
+   }
+   .main__block{
+       margin: 0 5px;
+   }
+   .dream-holidays{
+     top: -80px;
+     position: relative;
+   }
+   .dream-holidays__text{
+      position: absolute;
+      text-align: center;
+      top: 155px;
+      left: -100px;
+   }
+   .dream-holidays__opacity,
+   .dream-holidays__square{
+   display: none;
+   }
+   .dream-holidays__ring{
+     max-width: 426px;
+    }
+    .choose__naturally{
+      display: inline;
+     
+    }
+    .choose__row{
+      flex-wrap: wrap;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .choose-item{
+      min-width: 45%;
+      margin: 0 0 15px 0;
+    }
+    .about{
+    margin: -150px 0 0 0;
+     display: flex;
+     text-align: center;
+     position: relative;
+     }
+    .about__text{
+     padding:  0 0 0 100px;
+    }
+    .about__image{
+       max-width: 426px;
+    }
+    .about__price{
+      position: absolute;
+      bottom :0;
+      left: 15px;
+     
+      margin: -217px 0 0 0;
+    }
+    .portfolio{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    .portfolio__gallery{
+      max-width: 80%;
+      background : rgb(248, 248, 248);
+    }
+    .portfolio__gallery:nth-child(2n + 1){
+       margin: 15px 0;
+    }
+
+    .footer__container{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+     }
+     .footer__list{
+       display: flex;
+       justify-content: center;
+     }
+     
+    
+}
+/*-------------------------четвертый медиа-запрос ----------------------*/
+@media (min-width: 490px) and (max-width: 768px){
+  .main__list{
+    display: block;
+    font-size: 25px;
+    text-align: center;
+  }
+  .main__list li{
+    margin: 0 0 10px 0;
+  }
+  .dream-holidays{
+   display: flex;
+   flex-wrap: wrap;
+   
+  }
+  .dream-holidays__text{
+    text-align: center;
+  }
+  .dream-holidays__opacity,
+  .dream-holidays__square{
+  display: none;
+  }
+  .dream-holidays__ring{
+    max-width: 490px;
+   
+   }
+   .choose__naturally{
+    display: inline;
+   
+  }
+  .choose__row{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .choose-item{
+    min-width: 45%;
+    margin: 0 0 15px 0;
+  }
+  .about{
+     
+     display: flex;
+     text-align: center;
+     position: relative;
+     }
+    .about__text{
+     padding:  0 0 0 130px;
+    }
+    
+    .about__image{
+       max-width: 490px;
+    }
+    .about__price{
+      
+      position: absolute;
+      bottom :0;
+      left: 123px;
+      margin: -55px 0 0 0;
+    }
+    .portfolio{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    .portfolio__gallery{
+      max-width: 80%;
+      background : rgb(248, 248, 248);
+      margin: 5px;
+    }
+    
+    .footer__container{
+      display: flex;
+      flex-wrap: wrap;
+    }
+}
+/*-------------------------пятый медиа-запрос ----------------------*/ 
+@media (min-width: 769px) and (max-width: 1023px){
+  .dream-holidays{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  .dream-holidays__text{
+   text-align: right;
+
+  }
+  .choose__naturally{
+    display: inline;
+  }
+  .about{
+   text-align: center;
+   flex-wrap: wrap;
+  }
+  .about__text{
+  
+  }
+  .about__price{
+    position: absolute;
+    bottom: 0;
+    left: 219px;
+    width: 225px;
+   }
+  .footer__container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+/*-------------------------шестой медиа-запрос ----------------------*/ 
+@media (min-width: 1024px) and (max-width: 1199px){
+  .dream-holidays__discription{
+    font-size: 19px;
+  }.about{
+    display: flex;
+   text-align: center;
+  }
+  .about__item{
+    position: relative;
+  }
+  
+  .about__text{
+    padding: 0 0 0 250px;
+  }
+ .about__price{
+    position: absolute;
+    bottom: 0;
+    left: 220px;
+    width: 210px;
+  }
+}
